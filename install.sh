@@ -8,9 +8,9 @@ echo "Installing dotfiles and more"
 #sudo apt install zsh
 
 #touch ~/.profile
-> ~/.profile
-echo "export SHELL=`which zsh`" >> ~/.profile
-echo "`[ -z "$ZSH_VERSION" ] && exec \"$SHELL\" -l" >> ~/.profile
+>~/.profile
+echo "export SHELL=$(which zsh)" >>~/.profile
+echo "[ -z "$ZSH_VERSION" ] && exec \"$SHELL\" -l" >>~/.profile
 
 echo "Install omz"
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
