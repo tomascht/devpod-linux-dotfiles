@@ -7,6 +7,6 @@ apt upgrade
 echo "Installing zsh"
 apt install zsh
 
-touch .profile
-echo "export SHELL=`which zsh`" >> .profile
-echo "`[ -z "$ZSH_VERSION" ] && exec \"$SHELL\" -l"
+touch ~/.profile
+echo "export SHELL=`which zsh`" >> ~/.profile
+echo "`[ -z "$ZSH_VERSION" ] && exec \"$SHELL\" -l" >> ~/.profile
