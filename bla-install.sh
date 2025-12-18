@@ -1,8 +1,8 @@
 #!/bin/sh
 
 echo "Installing dotfiles and more"
-apt update
-apt upgrade
+sudo apt update
+sudo apt upgrade
 
 echo "Installing zsh"
 apt install zsh
