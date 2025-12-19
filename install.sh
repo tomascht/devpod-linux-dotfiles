@@ -29,6 +29,7 @@ echo "alias gpp='git push -u origin $(git rev-parse --abbrev-ref HEAD)'" >>~/.zs
 echo 'alias rails="bundle exec rails"' >>~/.zshrc
 echo 'alias rspec="bundle exec rspec"' >>~/.zshrc
 echo 'alias cap="bundle exec cap"' >>~/.zshrc
+echo 'alias gfp="git fetch --all --prune"' >>~/.zshrc
 
 # zoxide setup
 echo 'eval "$(zoxide init zsh --cmd cd)"' >>~/.zshrc
