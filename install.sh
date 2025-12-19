@@ -19,6 +19,9 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# git set editor
+git config --global core.editor "nvim"
+
 # aliases
 echo 'alias ll="ls -alh"' >>~/.zshrc
 echo 'alias v="nvim"' >>~/.zshrc
