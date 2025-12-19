@@ -19,9 +19,13 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# aliases
 echo 'alias ll="ls -alh"' >>~/.zshrc
 echo 'alias v="nvim"' >>~/.zshrc
 echo "alias gpp='git push -u origin $(git rev-parse --abbrev-ref HEAD)'" >>~/.zshrc
+echo 'alias rails="bundle exec rails"'
+echo 'alias rspec="bundle exec rspec"'
+echo 'alias cap="bundle exec cap"'
 
 # zoxide setup
 eval "$(zoxide init zsh --cmd cd)"
