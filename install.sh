@@ -17,6 +17,7 @@ echo 'export SHELL="$(which zsh)"'
 # Lazyvim
 # mv ~/.config/nvim{,.bak}
 git clone https://github.com/LazyVim/starter ~/.config/nvim
+cp nvim-keymaps.lua ~/.config/nvim/lua/config/keymaps.lua
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
